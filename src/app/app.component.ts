@@ -6,10 +6,10 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-  name: [string] = "christian"
+  styleUrl: './app.component.css'
 })
 
 export class AppComponent {
   title = 'exercise-1';
+  name: string = 'christian'
 }
